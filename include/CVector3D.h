@@ -15,8 +15,19 @@ namespace Cali
     class CVector3D
     {
     private:
+        /**
+         * @brief The X coordinate.
+         * */
         T m_X;
+
+        /**
+         * @brief The Y coordinate.
+         * */
         T m_Y;
+
+        /**
+         * @brief The Z coordinate.
+         * */
         T m_Z;
 
     public:
