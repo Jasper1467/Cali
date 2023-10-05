@@ -9,7 +9,7 @@
 #include <vector>
 #include <string>
 
-#ifdef SUPPORT_IMGUI_COLORS
+#ifdef CALI_SUPPORT_IMGUI_COLORS
 #include <imgui.h>
 #endif
 
@@ -352,7 +352,7 @@ namespace Cali
             return m_szName != color.m_szName || m_vecColorKeys != color.m_vecColorKeys || m_vecRatios != color.m_vecRatios;
         }
 
-#ifdef SUPPORT_IMGUI_COLORS
+#ifdef CALI_SUPPORT_IMGUI_COLORS
 
         /**
          * @brief Get the ImGui color data. U can only use this function if SUPPORT_IMGUI_COLORS is defined.
